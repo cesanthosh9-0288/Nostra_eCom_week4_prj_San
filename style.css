@@ -189,7 +189,7 @@
 .filters h3 {
     width: 100%;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: darkslategrey;
     margin: 1px;
 }
@@ -226,7 +226,7 @@ label:hover {
 }
 
 .contact-subtitle {
-    font-size: 16px; 
+    font-size: 16px;
     text-align: center;
     color: grey;
     margin-bottom: 24px;
@@ -251,11 +251,11 @@ label:hover {
 
 .contact-form input:hover,
 .contact-form textarea:hover {
-    border-color:  lightgreen;
+    border-color: lightgreen;
 }
 
 .contact-form button {
-    background-color:  darkgreen;
+    background-color: darkgreen;
     color: white;
     padding: 8px 16px;
     font-size: 16px;
@@ -342,6 +342,26 @@ label:hover {
 
     }
 
+    .filters {
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+    }
+
+    .filters h3 {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        color: darkslategrey;
+        margin: 1px;
+    }
+
+
     /* Contact page Mobile view */
     .contact {
         margin: 16px;
@@ -412,6 +432,25 @@ label:hover {
     .surance {
         font-size: small;
 
+    }
+
+    .filters {
+        display: flex;
+        justify-content: center;
+        gap: 38px;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: whitesmoke;
+    }
+
+    .filters h3 {
+        width: 100%;
+        text-align: center;
+        font-size: 23px;
+        color: darkslategrey;
+        margin: 1px;
     }
 
     .contact-title {
